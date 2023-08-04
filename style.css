@@ -1,0 +1,52 @@
+body {
+    background-image: url("../img/an\ full\ black\ image\ with\ a\ number\ of\ small\ small\ p.jpg");      /* adding Background image */
+    
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);       /* Adding Background Color */
+    padding: 20px;
+    text-align: center;        /* Text in centre */    
+    color: #ffffff;         /* color of the font */
+}
+
+h1#hehe {
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 80px;                 /* Larger font size */
+}
+
+main {
+    padding: 20px;
+    font-family: 'Dancing Script', sans-serif;       
+    text-align: center;
+    color: #ffffff;
+}
+
+section#pizza {                /* Targeting the entire section  */
+    padding: 20px;
+    color: #ffffff;           /* color of the font */
+}
+main > section > div > p {        /* Targeting the Paragraph  */
+    font-size: 100px;
+}
+button {                   /* Adding css to the Button */
+    background-color: #f2f3ee;             /* Adding Background Color */
+    color: #f50808;                      /* color of the font */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 24px; /* Larger font size */
+    text-decoration: none;          /* To remove the line */
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+}
+
+button a {
+    color: #ee0e0e;
+    text-decoration: none;
+}
+
+
