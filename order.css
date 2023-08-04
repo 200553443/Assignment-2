@@ -1,0 +1,84 @@
+/* Styling for the body element */
+body {
+  font-family: Arial, sans-serif; /* Font family and style */
+  margin: 20px; /* Margin around the body content */
+  background-image: url("../img/backround.jpg"); /* Background image */
+  color: aqua; /* Text color */
+}
+
+/* Styling for the h1 element */
+h1 {
+  text-align: center; /* Center align the text */
+}
+
+/* Styling for the h2 element */
+h2 {
+  margin-top: 30px; /* Top margin */
+}
+
+/* Styling for the form element */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px; /* Padding around content */
+  border: 1px solid #ccc; /* Border with light gray color */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Styling for label elements */
+label {
+  display: block; /* Display as block elements */
+  margin-bottom: 10px; /* Bottom margin */
+}
+
+/* Styling for text input, email input, telephone input, and textarea elements */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%; /* Width 100% */
+  padding: 8px; /* Padding */
+  margin-bottom: 15px; /* Bottom margin */
+  border: 1px solid #ccc; /* Border with light gray color */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Styling for select elements */
+select {
+  width: 100%; /* Width 100% */
+  padding: 8px; /* Padding */
+  margin-bottom: 15px; /* Bottom margin */
+  border: 1px solid #ccc; /* Border with light gray color */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Styling for the submit button */
+input[type="submit"] {
+  background-color: #4CAF50; /* Background color of the submit button */
+  color: white; /* Text color of the submit button */
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+}
+
+/* Styling for the submit button on hover */
+input[type="submit"]:hover {
+  background-color: #45a049; /* Background color on hover */
+}
+
+/* Styling for textarea to enable vertical resizing */
+textarea {
+  resize: vertical; /* Enable vertical resizing */
+}
+
+/* Styling for anchor (link) elements */
+a {
+  background-color: #4CAF50; /* Background color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+  text-decoration: none; /* No underline */
+}
